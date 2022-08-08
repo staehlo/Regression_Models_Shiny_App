@@ -38,7 +38,7 @@ You need to have R, and git installed. RStudio is not necessary but helpful.
 
 Now you have two possibilites:
 
-A\. Launch the Shiny App via the command line:  
+__Option A\. Launch the Shiny App via the command line:__  
 4\. Change the working directory to the *shiny_regression_models_app* folder by typing:  
 `cd shiny_regression_models_app`
 
@@ -50,7 +50,7 @@ A\. Launch the Shiny App via the command line:
 
 8\. The app should automatically start in your default web browser.
 
-B\. Launch from within RStudio:  
+__Option B\. Launch from within RStudio:__  
 4\. In the top menu go to 'File' -> 'Open File' and select the 'app.R' file from the Shiny App.
 
 5\. Click on the 'Run App' button in the top right corner above the script.
