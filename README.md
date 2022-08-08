@@ -39,7 +39,7 @@ You need to have R, and git installed. RStudio is not necessary but helpful.
 Now you have two possibilites:
 
 A\. Launch the Shiny App via the command line:  
-4\. Change the working directory to the *shiny_regression_models_app* folger by typing:  
+4\. Change the working directory to the *shiny_regression_models_app* folder by typing:  
 `cd shiny_regression_models_app`
 
 5\. Start R from the command line by simple entering `R`.
