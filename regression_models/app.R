@@ -77,7 +77,8 @@ ui <- fluidPage(
           plotlyOutput("myplotly"),
           HTML("further legend:"), br(),
           img(src = 'color_of_conf_interval.png'),"confidence interval", br(),
-          img(src = 'color_of_pred_interval.png'),"prediction interval"
+          img(src = 'color_of_pred_interval.png'),"prediction interval",
+          br(), br()
           ), # end tabPanel ("Regression")
 
         ### tabPanel "About" ---------------------------------------------------
