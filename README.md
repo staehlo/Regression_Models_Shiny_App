@@ -46,7 +46,7 @@ A\. Launch the Shiny App via the command line:
 
 6\. In the R console, type `library("shiny")`  
 
-7\. In the R concole, type `runApp("regression_models")`
+7\. In the R console, type `runApp("regression_models")`
 
 8\. The app should automatically start in your default web browser.
 
