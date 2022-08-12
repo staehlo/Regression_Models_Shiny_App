@@ -56,3 +56,8 @@ __Option B\. Launch from within RStudio:__
 5\. Click on the 'Run App' button in the top right corner above the script.
 
 6\. The app should start in RStudio's 'Viewer' panel.
+
+## About the statistics
+
+The first five models (simple linear, quadratic, square root, logarithmic) are computed with the 'lm' function. In this case, $R^2$ and __*adjusted*__ $R^2$ are computed by the 'summary.lm' function. The Michaelis-Menten-style model is computed with the 'nls' function. The app will not return a value for $R^2$ and __*adjusted*__ $R^2$ as the use of these statistics is controversial in non-linear regression analysis (see for example [The R-squared and nonlinear regression: a difficult marriage?](https://www.r-bloggers.com/2021/03/the-r-squared-and-nonlinear-regression-a-difficult-marriage/) on r-bloggers).  
+The __*mean absolute error*__ (__*mae*__) is computed with the following formula $mae = {1} \over {n} * $\sum_{i=0}^n |y_{i}-\hat{y}_{i}|$
