@@ -59,13 +59,16 @@ __Option B\. Launch from within RStudio:__
 
 ## About the statistics
 
-The first five models (simple linear, quadratic, square root, logarithmic) are computed with the 'lm' function. In this case, $R^2$ and __*adjusted*__ $R^2$ are computed by the 'summary.lm' function. The Michaelis-Menten-style model is computed with the 'nls' function. The app will not return a value for $R^2$ and __*adjusted*__ $R^2$ as the use of these statistics is controversial in non-linear regression analysis (see for example [The R-squared and nonlinear regression: a difficult marriage?](https://www.r-bloggers.com/2021/03/the-r-squared-and-nonlinear-regression-a-difficult-marriage/) on r-bloggers).  
-The __*mean absolute error*__ (__*mae*__) is computed with the following formula:
+The first five models (simple linear, quadratic, square root, logarithmic) are computed with the 'lm' function. For the quadratic and cubic model, the script uses the raw polynomials (and does not compute the orthogonal equivalents) to be in line with other common statistical software products. $R^2$ and __*adjusted*__ $R^2$ are computed by the 'summary.lm' function for all of the first five models.  
+The Michaelis-Menten-style model is computed with the 'nls' function. The script will automatically 'guess' appropriate starting values so that the user does not need to provide them. The app will not return a value for $R^2$ and __*adjusted*__ $R^2$ as the use of these statistics is controversial in non-linear regression analysis (see for example [The R-squared and nonlinear regression: a difficult marriage?](https://www.r-bloggers.com/2021/03/the-r-squared-and-nonlinear-regression-a-difficult-marriage/) on r-bloggers).  
+The remaining two goodness-of-fit measures are calculated in the same way for all models:  
+
+The __*mean absolute error*__ (__*mae*__) is calculated with the following formula:
 
 $$mae = {{1} \over {n}} \* \sum\_{i=1}^n |y\_{i}-\hat{y}\_{i}|$$
 
-The __*root mean square error*__ (__*rmse*__) is computed with the following formula:
+The __*root mean square error*__ (__*rmse*__) is calculated with the following formula:
 
-$$rmse =  \sqrt{\frac{ {\sum}\_{i=1}^n (y\_{i}-\hat{y}\_{i})}{n}} $$
+$$rmse =  \sqrt{\frac{ {\sum}\_{i=1}^n (y\_{i}-\hat{y}\_{i})^2}{n}} $$
 
-In both equations, n corresponds to the number of observations, $y\_{i}$ to the ith obseration and $\hat{y}\_{i}$ to the model's estimate for the ith observation.  
+In both equations, n corresponds to the number of observations, $y\_{i}$ to the ith observation and $\hat{y}\_{i}$ to the model's estimate for the ith observation.  
