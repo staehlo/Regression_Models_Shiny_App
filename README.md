@@ -4,7 +4,7 @@ This is a training project that explores the functionality of R's Shiny Apps. Th
 
 The app can be viewed at [rahace.shinyapps.io/regression_models](https://rahace.shinyapps.io/regression_models/)
 
-Further information on Shiny apps:  
+Background information on Shiny apps:  
 [cran.r-project.org/web/packages/shiny](https://cran.r-project.org/web/packages/shiny/)  
 [shiny.rstudio.com](https://shiny.rstudio.com/)
 
