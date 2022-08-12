@@ -327,7 +327,7 @@ server <- function(input, output) {
       } else if (input$model == "cubic") {
         fit <- lm(y ~ poly(x, degree = 3, raw = TRUE), data = df)
         # plot will fail as R cannot calculate the confidence and 
-        # prediction interval if there are less than 4 rows of data
+        # prediction interval if there are less than 5 rows of data
         if (nrow(df) > 4) {
           create_plot(df, fit)
         } else {
