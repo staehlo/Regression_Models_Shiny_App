@@ -12,7 +12,7 @@ Background information on Shiny apps:
 
 ## Technology
 
-The app was build with R version 4.2.1 using RStudio 2022.07.0 Build 548.
+The app was built with R version 4.2.1 using RStudio 2022.07.0 Build 548.
 
 The following packages - and versions - were used:
 
