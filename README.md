@@ -1,4 +1,4 @@
-# Shiny_Regression_Models_App
+# Regression_Models_Shiny_App
 
 This is a training project that explores the functionality of R's Shiny Apps. The application lets users enter two series of data and then select either a linear or a non-linear regression model. The app will compute the equation and give out a table of goodness of fit measures. Finally, the app also displays the result in the form of an interactive plotly graph that also shows the confidence and prediction intervals.
 
