@@ -8,7 +8,7 @@ Background information on Shiny apps:
 [cran.r-project.org/web/packages/shiny](https://cran.r-project.org/web/packages/shiny/)  
 [shiny.rstudio.com](https://shiny.rstudio.com/)
 
-<img style="width:60%; height:auto;" src="https://github.com/staehlo/Shiny_Regression_Models_App/blob/main/screenshot_for_readme.png" alt="Screenshot of Shiny App">
+<img style="width:60%; height:auto;" src="https://github.com/staehlo/regression_models_shiny_app/blob/main/screenshot_for_readme.png" alt="Screenshot of Shiny App">
 
 ## Technology
 
@@ -39,8 +39,8 @@ You need to have R, and git installed. RStudio is not necessary but helpful.
 Now you have two possibilites:
 
 __Option A\. Launch the Shiny App via the command line:__  
-4\. Change the working directory to the *shiny_regression_models_app* folder by typing:  
-`cd shiny_regression_models_app`
+4\. Change the working directory to the *regression_models_shiny_app* folder by typing:  
+`cd regression_models_shiny_app`
 
 5\. Start R from the command line by simple entering `R`.
 
