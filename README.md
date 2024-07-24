@@ -34,7 +34,7 @@ You need to have R, and git installed. RStudio is not necessary but helpful.
 `install.packages('ggplot2')`
 
 3.\ Clone the repository to your computer by entering in your Linux terminal or Windows command line:  
-`git clone https://github.com/staehlo/shiny_regression_models_app` 
+`git clone https://github.com/staehlo/regression_models_shiny_app` 
 
 Now you have two possibilites:
 
